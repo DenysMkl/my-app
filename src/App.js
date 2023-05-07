@@ -1,14 +1,12 @@
 import React, {useState} from 'react';
-import Counter from './components/Counter';
-import ChangeCaption from './components/ChangeCaption';
-
+import './style/App.css'
+import SideBar from './components/SideBar';
 
 function App() {
-
+  
   return (
     <div className="App">
-      <Counter/>
-      <ChangeCaption/>
+      <SideBar/>
     </div>
   );
 }
